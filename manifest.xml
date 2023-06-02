@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote
+    name="clo"
+    fetch="https://git.codelinaro.org/clo/la"
+    review="codelinaro.org"/>
+
+  <remote
+    name="osomprivacy"
+    fetch="https://github.com/osomprivacy"/>
+  
+  <default
+    remote="clo"
+    revision="kernel.build.lnx.1.0"
+    sync-j="8"/>
+
+  <!-- Repos -->
+  <project groups="qki" name="kernel/common" path="common" revision="a2577d1c1995e7756d5b95574749807c70daec89" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project remote="osomprivacy" name="msm-5.10" path="private/msm-5.10" revision="TKQ1.221220.209">
+    <linkfile dest="common/build.config.msm.waipio" src="build.config.msm.waipio" />
+    <linkfile dest="common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm" />
+    <linkfile dest="common/build.config.msm.lahaina" src="build.config.msm.lahaina" />
+  </project>
+
+  <!-- External modules -->
+  <!-- Audio -->
+  <project name="audio-kernel" path="private/modules/audio" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- Camera -->
+  <project name="camera-kernel" path="private/modules/camera" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- CVP -->
+  <project name="cvp-kernel" path="private/modules/cvp" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- Data -->
+  <project name="dataipa" path="private/modules/dataipa" remote="osomprivacy" revision="TKQ1.221220.209"/>
+  <project name="datarmnet" path="private/modules/datarmnet" remote="osomprivacy" revision="TKQ1.221220.209"/>
+  <project name="datarmnet-ext" path="private/modules/datarmnet-ext" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- Display -->
+  <project name="display-drivers" path="private/modules/display" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- EVA -->
+  <project name="eva-kernel" path="private/modules/eva" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- MMRM -->
+  <project name="mmrm-driver" path="private/modules/mmrm" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- NFC/eSE -->
+  <project name="nfc" path="private/modules/nfc" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- QCACLD -->
+  <project name="qcacld-3.0" path="private/modules/qcacld-3.0" remote="osomprivacy" revision="TKQ1.221220.209"/>
+  <project name="fw-api" path="private/modules/fw-api" remote="osomprivacy" revision="TKQ1.221220.209"/>
+  <project name="qca-wifi-host-cmn" path="private/modules/qca-wifi-host-cmn" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- UWB -->
+  <project name="uwb-stack" path="private/modules/uwb-stack" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- Video -->
+  <project name="video-driver" path="private/modules/video" remote="osomprivacy" revision="TKQ1.221220.209"/>
+
+  <!-- Tools -->
+  <project name="kernel/build" path="build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" />
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="10ab783184f77d3ea15bf666426a7138b0f62bfc" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernel_platform/external/dtc" path="external/dtc" revision="deb932d81061c472e8bb2648a409a456e6e84997" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel" />
+  <project name="kernel_platform/kernel/prebuilts/mainline/arm64" path="kernel/prebuilts/mainline/arm64" revision="de12e10cfe8d67d5c0627069306fda939f52154a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" />
+  <project name="kernel_platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="846214bd11004546cd3fc2590c73c628fcd6778c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernel_platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="08410f46318f3f301b96ed058466ab0dde0b050b" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="prebuilts-master/clang/host/linux-x86" revision="0fc3d01a780023469b7acc18c56a9cf5099a6d6c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+  <project name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="c9f87ae369034b4942536a1c5bd62e4cd1d828e3" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
+</manifest>
