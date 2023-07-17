@@ -17,7 +17,7 @@
 
   <!-- Repos -->
   <project groups="qki" name="kernel/common" path="common" revision="a2577d1c1995e7756d5b95574749807c70daec89" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel" />
-  <project remote="osomprivacy" name="msm-5.10" path="private/msm-5.10" revision="TKQ1.221220.270">
+  <project remote="osomprivacy" name="msm-5.10" path="private/msm-5.10" revision="TKQ1.221220.425">
     <linkfile dest="common/build.config.msm.waipio" src="build.config.msm.waipio" />
     <linkfile dest="common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm" />
     <linkfile dest="common/build.config.msm.lahaina" src="build.config.msm.lahaina" />
@@ -25,41 +25,41 @@
 
   <!-- External modules -->
   <!-- Audio -->
-  <project name="audio-kernel" path="private/modules/audio" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="audio-kernel" path="private/modules/audio" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- Camera -->
-  <project name="camera-kernel" path="private/modules/camera" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="camera-kernel" path="private/modules/camera" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- CVP -->
-  <project name="cvp-kernel" path="private/modules/cvp" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="cvp-kernel" path="private/modules/cvp" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- Data -->
-  <project name="dataipa" path="private/modules/dataipa" remote="osomprivacy" revision="TKQ1.221220.270"/>
-  <project name="datarmnet" path="private/modules/datarmnet" remote="osomprivacy" revision="TKQ1.221220.270"/>
-  <project name="datarmnet-ext" path="private/modules/datarmnet-ext" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="dataipa" path="private/modules/dataipa" remote="osomprivacy" revision="TKQ1.221220.425"/>
+  <project name="datarmnet" path="private/modules/datarmnet" remote="osomprivacy" revision="TKQ1.221220.425"/>
+  <project name="datarmnet-ext" path="private/modules/datarmnet-ext" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- Display -->
-  <project name="display-drivers" path="private/modules/display" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="display-drivers" path="private/modules/display" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- EVA -->
-  <project name="eva-kernel" path="private/modules/eva" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="eva-kernel" path="private/modules/eva" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- MMRM -->
-  <project name="mmrm-driver" path="private/modules/mmrm" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="mmrm-driver" path="private/modules/mmrm" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- NFC/eSE -->
-  <project name="nfc" path="private/modules/nfc" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="nfc" path="private/modules/nfc" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- QCACLD -->
-  <project name="qcacld-3.0" path="private/modules/qcacld-3.0" remote="osomprivacy" revision="TKQ1.221220.270"/>
-  <project name="fw-api" path="private/modules/fw-api" remote="osomprivacy" revision="TKQ1.221220.270"/>
-  <project name="qca-wifi-host-cmn" path="private/modules/qca-wifi-host-cmn" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="qcacld-3.0" path="private/modules/qcacld-3.0" remote="osomprivacy" revision="TKQ1.221220.425"/>
+  <project name="fw-api" path="private/modules/fw-api" remote="osomprivacy" revision="TKQ1.221220.425"/>
+  <project name="qca-wifi-host-cmn" path="private/modules/qca-wifi-host-cmn" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- UWB -->
-  <project name="uwb-stack" path="private/modules/uwb-stack" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="uwb-stack" path="private/modules/uwb-stack" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- Video -->
-  <project name="video-driver" path="private/modules/video" remote="osomprivacy" revision="TKQ1.221220.270"/>
+  <project name="video-driver" path="private/modules/video" remote="osomprivacy" revision="TKQ1.221220.425"/>
 
   <!-- Tools -->
   <project name="kernel/build" path="build" revision="56594101567799238a9947ac5bc006e1b0d8595a" upstream="refs/heads/kernel.lnx.5.10.r1-rel" />
