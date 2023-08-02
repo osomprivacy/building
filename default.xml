@@ -24,6 +24,16 @@
   </project>
 
   <!-- External modules -->
+  <!-- Devicetree -->
+  <project name="devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="audio-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/audio" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="camera-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/camera" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="cvp-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/cvp" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="display-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/display" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="eva-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/eva" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="mmrm-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/mmrm" remote="osomprivacy" revision="TKQ1.221220.209" />
+  <project name="video-devicetree" path="private/msm-5.10/arch/arm64/boot/dts/vendor/qcom/video" remote="osomprivacy" revision="TKQ1.221220.209" />
+
   <!-- Audio -->
   <project name="audio-kernel" path="private/modules/audio" remote="osomprivacy" revision="TKQ1.221220.209"/>
 
