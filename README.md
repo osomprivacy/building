@@ -6,7 +6,7 @@ The following instructions will allow you to sync and build the kernel for Solan
 # Sync
 
 ```
-repo init -u https://github.com/osomprivacy/building.git -b TKQ1.221220.425
+repo init -u https://github.com/osomprivacy/building.git -b TKQ1.221220.499
 ```
 
 # Build
